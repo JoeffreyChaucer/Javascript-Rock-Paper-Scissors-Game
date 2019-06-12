@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Javascript-Rock-Paper-Scissors-Game</title>
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <section class="game">
@@ -22,11 +23,11 @@
         <h2>Rock-Paper-Scissor</h2>
         <button>Let's Play</button>
       </div>
-      <div class="match">
-        <h2>Winner</h2>
+      <div class="match fadeOut">
+        <h2 class="winner">Winner</h2>
         <div class="hands">
           <img class="player-hand" src="img/rock.png" alt="rock" />
-          <img class="player-hand" src="img/rock.png" alt="rock" />
+          <img class="computer-hand" src="img/rock.png" alt="rock" />
         </div>
         <div class="options">
           <button>rock</button>
@@ -35,5 +36,6 @@
         </div>
       </div>
     </section>
+    <script src="./js/main.js"></script>
   </body>
 </html>
